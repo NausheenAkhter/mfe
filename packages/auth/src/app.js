@@ -16,7 +16,7 @@ export default ({history}) => {
         <Router history={history}>
           <Switch>
             <Route exact path="/auth/signin" component={SignIn} />
-            {/* <Route exact path="/" component={SignIn} /> */}
+            <Route exact path="/" component={SignIn} />
             <Route path="/auth/signup" component={SignUp} />
           </Switch>
         </Router>
